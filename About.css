@@ -1,0 +1,286 @@
+.background_img{
+    background: linear-gradient(324deg, rgba(242, 113, 113, 0.8), rgba(255,0,0,0) 70.71%),
+                 linear-gradient(127deg, rgba(8, 15, 15, 0.8), rgba(0,255,0,0) 70.71%),
+                 linear-gradient(168deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%),
+                 linear-gradient(168deg, rgba(141, 141, 216, 0.8), rgba(0,0,255,0) 70.71%),
+                 linear-gradient(168deg, rgba(77, 49, 135, 0.8), rgba(0,0,255,0) 70.71%);
+                 width: 100vw;
+                 height: 100vh;
+                 background-attachment: fixed;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+ 
+ #navbarNavDropdown{
+     justify-content: end;
+     padding-right: 100px;
+ }
+ .nav-item{
+    font-size: 28px !important;
+    animation: fromTop 1s ease forwards;
+  
+  }
+
+.navbar-nav{
+    margin-right: 204px;
+}
+
+
+ .nav-item:hover{
+     background: linear-gradient(168deg, rgba(191, 169, 234, 0.8), rgba(0,0,255,0) 70.71%),
+     linear-gradient(168deg, rgba(235, 185, 235, 0.8), rgba(0,0,255,0) 70.71%),
+     linear-gradient(168deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%),
+     linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(0,255,0,0) 70.71%),
+     linear-gradient(324deg, rgba(219, 102, 155, 0.822), rgba(255,0,0,0) 70.71%); 
+    border-radius: 30px;
+    color: azure;
+   transition: 0.3s;
+   font-size: 22px;
+   
+ }
+ 
+ #Logo{
+    
+     font-size:40px;
+     font-weight: bolder;
+     color: rgb(255, 255, 255);
+     margin: 10px;
+     margin-left: 50px;
+     border-radius: 10px;
+     padding-left: 5px;
+     padding-right: 5px;
+     animation: slideRight 1s ease forwards;
+ 
+ }
+ .ribeye-marrow-regular {
+     font-family: "Ribeye Marrow", serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+ #intro{
+     font-size: 70px;
+     color: blanchedalmond;
+     padding: 50px;
+     padding-left: 0;
+     margin-right: 10px;
+ }
+ 
+ #name{
+     color: coral;
+     opacity: 0;
+     animation: slideBottom 2s ease forwards;
+     animation-delay: 0.1s;
+ }
+ 
+ 
+ 
+ .cinzel-Intro {
+   font-family: "Cinzel", serif;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-style: normal;
+ 
+ }
+ 
+ 
+ #element{
+     color: coral;
+     text-decoration: underline;
+ }
+ 
+ 
+ .almendra-bold-italic {
+     font-family: "Almendra", serif;
+     font-weight: 700;
+     font-style: italic;
+   }
+ 
+   /* styles.css */
+ .navbar-nav .nav-link {
+  
+     color: rgb(255, 249, 249) !important;
+ }
+ 
+ 
+ 
+ .nav-item a {
+     color: #fffdfd;
+   }
+   
+ 
+ 
+   .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+     color: white !important;
+    
+ }
+ 
+ .dropdown-menu a:hover {
+     background-color: rgba(28, 28, 28, 0.253);
+ }
+ 
+ .navbar-toggler{
+     border: 1px solid white !important;
+ }
+ 
+ .dropdown-menu a {
+     color: black;
+ 
+ }
+ 
+ .row{
+     color: #fffdfd;
+ }
+ 
+ 
+ #img{
+     box-shadow:   10px 10px;
+ 
+ }
+ 
+
+ #btn_logos{
+     display: flex;
+ }
+ 
+ 
+ 
+ #source{
+   
+     margin: 10px;
+     margin-left: 20px;
+     margin-top: 25px;
+ }
+ 
+ 
+ #source:hover{
+    font-size: 46px;
+     transition: 0.4s;
+     
+ 
+ }
+
+ @keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+#aboutMe{
+    font-size: 50px;
+    color: #fffdfd;
+    
+}
+
+
+.education,.Experience{
+    animation: fromTop 4s ease forwards;
+    font-size:40px;
+}
+
+
+
+.edu , .exp{
+    border-left: 10px solid wheat;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left:50px;
+    font-size: 25px;
+    margin-bottom:80px;    
+    animation: slideRight 4s ease forwards;
+}
+
+
+
+@keyframes fromTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.ruia img{
+    height: 80px;
+   
+    animation: mymove 2s ease reverse;
+    /* margin-left: 40px; */
+}
+.sies img{
+    height: 80px;
+    
+    animation: mymove 2s ease forwards;
+    
+    margin-bottom: 80px;
+}
+
+.iperitus img{
+    width: 140px;
+    background-color: rgba(240, 248, 255, 0.473);
+    margin-left: 0;
+}
+
+
+
+
+
+
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      
+    }
+  }
+
+
+  
+ .header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   background: linear-gradient(324deg, rgba(242, 113, 113, 0.8), rgba(255,0,0,0) 70.71%),
+          
+            linear-gradient(168deg, rgba(0, 0, 255, 0.8), rgba(0,0,255,0) 70.71%),
+            linear-gradient(168deg, rgba(141, 141, 216, 0.8), rgba(0,0,255,0) 70.71%),
+            linear-gradient(168deg, rgba(77, 49, 135, 0.8), rgba(0,0,255,0) 70.71%);
+   
+}
+
